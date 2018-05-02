@@ -1,0 +1,20 @@
+{
+  "name": "typescriptapi",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "Vivek Chowdhary <noenthu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/restify": "^5.0.7",
+    "nodemon": "^1.17.3",
+    "pg": "^7.4.1",
+    "restify": "^7.1.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^6.0.2",
+    "typeorm": "^0.2.4",
+    "typescript": "^2.8.3"
+  }
+}
